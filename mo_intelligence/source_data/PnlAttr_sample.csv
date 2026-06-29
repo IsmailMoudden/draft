@@ -1,0 +1,20 @@
+Date,Strategy_ID,Strategy_Name,Book,Asset_Class,Delta_PnL,Gamma_PnL,Vega_PnL,Theta_PnL,Carry_PnL,Rates_PnL,FX_PnL,Residual_PnL,Total_PnL,Currency,Existing_Comment
+2026-06-27,CRUDE_OPT_01,Crude Oil Options,CRUDE_OPT_BOOK,Crude Oil Options,320000,85000,-42000,-18000,,,-5000,,340000,USD,Brent rally drove delta and gamma; vega slightly negative on vol compression
+2026-06-27,CRUDE_FUT_01,Crude Futures,CRUDE_FUT_BOOK,Crude Oil Futures,510000,,,,-3000,,,,507000,USD,
+2026-06-27,NATGAS_OPT_01,Nat Gas Options,NATGAS_OPT_BOOK,Natural Gas Options,-95000,12000,230000,-8500,,,2000,185000,325500,USD,Vega main driver on EIA surprise; residual large — likely gamma/theta interaction not captured
+2026-06-27,REFPROD_SWAP_01,Refined Products Swaps,REFPROD_BOOK,Refined Products,-210000,,,,8000,-2000,15000,,,-189000,USD,Gasoil crack weighed on delta
+2026-06-27,POWER_OPT_01,Power Options,POWER_OPT_BOOK,Power Options,45000,9000,18000,-12000,,,-3000,,57000,USD,
+2026-06-27,LNG_PHYS_01,LNG Physical,LNG_BOOK,LNG Physical,,,,,125000,,-8000,,117000,USD,Carry driven by seasonal premium
+2026-06-27,CRUDE_OPT_02,Crude Oil Spread Options,CRUDE_SPREAD_BOOK,Crude Oil Options,88000,-6000,12000,-4000,,,,-3000,87000,USD,
+2026-06-26,CRUDE_OPT_01,Crude Oil Options,CRUDE_OPT_BOOK,Crude Oil Options,190000,42000,-28000,-17000,,,3000,,190000,USD,
+2026-06-26,CRUDE_FUT_01,Crude Futures,CRUDE_FUT_BOOK,Crude Oil Futures,-320000,,,,-1500,,,,,-321500,USD,Brent selloff on demand outlook
+2026-06-26,NATGAS_OPT_01,Nat Gas Options,NATGAS_OPT_BOOK,Natural Gas Options,35000,8000,-45000,-9000,,,1500,,-9500,USD,
+2026-06-26,REFPROD_SWAP_01,Refined Products Swaps,REFPROD_BOOK,Refined Products,78000,,,,4000,-1000,9500,,-90500,USD,Naphtha spread widened
+2026-06-26,POWER_OPT_01,Power Options,POWER_OPT_BOOK,Power Options,-22000,4000,9000,-11000,,,-2500,,-22500,USD,
+2026-06-26,LNG_PHYS_01,LNG Physical,LNG_BOOK,LNG Physical,,,,,98000,,-6000,,92000,USD,
+2026-06-25,CRUDE_OPT_01,Crude Oil Options,CRUDE_OPT_BOOK,Crude Oil Options,1250000,380000,-95000,-22000,,,-12000,350000,1851000,USD,Large move — Brent gap up 3% on OPEC+ cut surprise; residual 19% needs review
+2026-06-25,CRUDE_FUT_01,Crude Futures,CRUDE_FUT_BOOK,Crude Oil Futures,2100000,,,,-2000,,,,2098000,USD,OPEC+ cut — directional position paid off; verify size with trading desk
+2026-06-25,NATGAS_OPT_01,Nat Gas Options,NATGAS_OPT_BOOK,Natural Gas Options,18000,5000,72000,-9500,,,4000,,89500,USD,
+2026-06-25,REFPROD_SWAP_01,Refined Products Swaps,REFPROD_BOOK,Refined Products,55000,,,,3000,-500,7500,,65000,USD,
+2026-06-25,POWER_OPT_01,Power Options,POWER_OPT_BOOK,Power Options,310000,55000,42000,-15000,,,-5000,,387000,USD,Heat wave — power spike drove delta and vega
+2026-06-25,LNG_PHYS_01,LNG Physical,LNG_BOOK,LNG Physical,,,,,210000,,-15000,,195000,USD,Spot premium vs TTF widened on LNG diversion news
